@@ -20,6 +20,8 @@ const render = () => {
 const setState = (newState) => {
   state = { ...state, ...newState };
   render();
+
+  
 }
 
 render();
